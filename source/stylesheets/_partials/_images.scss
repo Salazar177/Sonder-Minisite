@@ -19,6 +19,14 @@ position: relative;
 	padding-top: 1em;
 	display: block;
 	margin: auto;
+	cursor: pointer;
+	transition: -webkit-transform 1s ease;
+
+}
+
+.downArrow:hover{
+	-webkit-transform: translate(0, .5em);
+	opacity: .75;
 }
 
 .sectionOne, .sectionIntro{

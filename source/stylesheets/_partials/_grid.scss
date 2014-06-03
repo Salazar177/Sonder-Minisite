@@ -7,19 +7,28 @@
 .sectionContainer{
 	min-height: 100%;
 	min-width: 100%;
+	height: 100vh;
 }
 
 .gridContainer{
 	width: 1170px;
 	margin: auto;
+	position: relative;
+	height: 100vh;
 /* 	background-color: #222; */
 }
 
+
+
 /* ----- SPECIFIC SECTIONS ----- */
 
-/* INTRO SECTION */
+
+
+// INTRO SECTION
+
+/*
 .sectionOne, .sectionIntro{
-/* 	background-color: black; */
+	background-color: black;
 	height: 100vh;
 }
 
@@ -27,6 +36,7 @@
 	height: 100vh;
 	position: relative;
 }
+*/
 
 .introOne{
 	display: block;
@@ -37,10 +47,29 @@
 	transform: translateY(-50%);
 }
 
+
+// THIS NEEDS TO CHANGE!
 .introTwo{
 	position: relative;
 	margin: 0 auto;
 	bottom: 0;
 	transform: translateY(-50%);
+	top: 80%;
+}
 
+
+
+
+
+// FEED SECTION
+
+.sectionTwo, .sectionFeed{
+/* 	background-color: black; */
+	height: 100vh;
+	background-color: yellow;
+}
+
+.gridOne, .gridIntro{
+	height: 100vh;
+	position: relative;
 }
