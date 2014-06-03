@@ -1,0 +1,26 @@
+.backgroundImage{
+	background-size: cover;
+	background-position:center;
+}
+
+.logo{
+	display: block;
+	margin: auto;
+	width: 14em;
+	padding-bottom: 1em;
+	/*
+position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+*/
+}
+
+.downArrow{
+	padding-top: 1em;
+	display: block;
+	margin: auto;
+}
+
+.sectionOne, .sectionIntro{
+	background-image: url('../images/sectionIntro-bgimg.jpg');
+}

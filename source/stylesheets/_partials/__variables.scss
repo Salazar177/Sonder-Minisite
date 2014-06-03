@@ -11,14 +11,12 @@ $gotham: 'Gotham', Helvetica, sans-serif;
 
 $fontWeightNormal: normal;
 
-/* $gothamweight:  */
+$gothamweight: 100;
 
 
-/*
-@mixin chronicleheader($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+
+/* GENERAL STYLES */
+
+html{
+	position: relative;
 }
-*/

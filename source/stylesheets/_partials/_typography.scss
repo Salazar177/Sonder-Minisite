@@ -4,3 +4,24 @@ h1{
 	font-style: italic;
 	text-transform: none;
 }
+
+h2{
+	font-family: $gotham;
+	font-weight: $gothamweight;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 1em;
+	color: $white;
+	text-align: center;
+	line-height: 1em;
+}
+
+h5{
+	font-family: $gotham;
+	font-weight: $gothamweight;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 0.813em;
+	color: $white;
+	text-align: center;	
+}

@@ -1,0 +1,46 @@
+.pageContainer{
+	min-height: 100%;
+	min-width: 100%;
+	background-color: red;
+}
+
+.sectionContainer{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.gridContainer{
+	width: 1170px;
+	margin: auto;
+/* 	background-color: #222; */
+}
+
+/* ----- SPECIFIC SECTIONS ----- */
+
+/* INTRO SECTION */
+.sectionOne, .sectionIntro{
+/* 	background-color: black; */
+	height: 100vh;
+}
+
+.gridOne, .gridIntro{
+	height: 100vh;
+	position: relative;
+}
+
+.introOne{
+	display: block;
+	width: 430px;
+	position: relative;
+	margin: auto;
+	top: 42%;
+	transform: translateY(-50%);
+}
+
+.introTwo{
+	position: relative;
+	margin: 0 auto;
+	bottom: 0;
+	transform: translateY(-50%);
+
+}
