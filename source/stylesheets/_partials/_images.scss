@@ -5,7 +5,6 @@
 
 .logo{
 	display: block;
-	margin: auto;
 	width: 14em;
 	padding-bottom: 1em;
 	/*
@@ -30,5 +29,16 @@ position: relative;
 }
 
 .sectionOne, .sectionIntro{
-	background-image: url('../images/sectionIntro-bgimg.jpg');
+	background-image: url('../images/sonder2.jpg');
+}
+
+.transparentColor{
+	background-color: #000;
+	opacity: .7;
+}
+
+iframe{
+	width: 100%;
+	height: inherit;
+	padding: 7em;
 }

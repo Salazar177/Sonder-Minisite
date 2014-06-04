@@ -3,6 +3,8 @@ h1{
 	font-weight: bold;
 	font-style: italic;
 	text-transform: none;
+	font-size: 2em;
+	margin-bottom: .5em;
 }
 
 h2{
@@ -12,7 +14,7 @@ h2{
 	letter-spacing: 0.3em;
 	font-size: 1em;
 	color: $white;
-	text-align: center;
+	text-align: left;
 	line-height: 1em;
 }
 
@@ -24,4 +26,30 @@ h5{
 	font-size: 0.813em;
 	color: $white;
 	text-align: center;	
+}
+
+p{
+	font-family: $gotham;
+	font-weight: $gothamweight;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+a{
+	text-decoration: none;
+	display: inline;
+	font-size: .75em;
+	h2{
+		color: $black;
+	}
+}
+
+a:hover{
+		opacity: .5;
+	}
+	
+	
+.profileOne{
+	color: white;
 }
