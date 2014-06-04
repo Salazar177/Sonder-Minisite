@@ -110,7 +110,7 @@
 }
 
 .sectionFour{
-	background-color: #b2b2b2;
+	background-color: #ccc;
 	z-index: 10;
 	position: relative;
 	
@@ -150,11 +150,66 @@
 		}
 		.createTwo{
 			.createImg{
-				width: 800px;
+				width: 600px;
 				z-index: 0;
 				position: absolute;
 				right: 0;
-				top: 10%;
+				top: 20%;
+			}
+		}
+	}
+}
+
+.sectionSix{
+	background-color: #ccc;
+	.gridSix{
+		.siteOne{
+			
+		}
+		.siteTwo{
+			padding: 25% 0;
+			color: $black;
+			float: right;
+			z-index: 10;
+			position: relative;
+			width: 370px;
+			margin-right: 130px;
+
+		}
+	}
+}
+
+.sectionSeven{
+	background-image: url('../images/sectionFooter-bgimg.jpg');
+	border-top: 5px #b2b2b2;
+	.gridSeven{
+		height: auto;
+		bottom: 0;
+		padding: 100px;
+		color: white;
+		.footerOne{
+			text-align: center;
+			width: 570px;
+			margin: auto;
+		}
+	}
+	.whiteBorder{
+		border-top: 1px white solid;
+		.gridSeven{
+			.footerTwo{
+				display: block;
+				margin: auto;
+				.footerLogo{
+					display: block;
+					width: 108px;
+					height: inherit;
+					margin: auto;
+				}
+				.footerh{
+					font-size: 13px;
+					text-align: center;
+					margin-bottom: 10px;
+				}
 			}
 		}
 	}

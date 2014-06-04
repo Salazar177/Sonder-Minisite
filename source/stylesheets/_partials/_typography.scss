@@ -14,7 +14,7 @@ h2{
 	letter-spacing: 0.3em;
 	font-size: 1em;
 	color: $white;
-	text-align: left;
+/* 	text-align: left; */
 	line-height: 1em;
 }
 
@@ -26,6 +26,17 @@ h5{
 	font-size: 0.813em;
 	color: $white;
 	text-align: center;	
+}
+
+h6{
+	font-family: $gotham;
+	font-weight: $gothamweight;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 0.813em;
+	color: $white;
+	text-align: center;	
+	font-size: .5em;
 }
 
 p{
