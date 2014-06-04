@@ -14,7 +14,6 @@ h2{
 	letter-spacing: 0.3em;
 	font-size: 1em;
 	color: $white;
-/* 	text-align: left; */
 	line-height: 1em;
 }
 
@@ -33,10 +32,10 @@ h6{
 	font-weight: $gothamweight;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
-	font-size: 0.813em;
 	color: $white;
 	text-align: center;	
-	font-size: .5em;
+	font-size: 8px;
+	margin-top: 10px;
 }
 
 p{
@@ -63,4 +62,9 @@ a:hover{
 	
 .profileOne{
 	color: white;
+}
+
+.footerh{
+	text-align: center;
+	font-size: 8px;
 }

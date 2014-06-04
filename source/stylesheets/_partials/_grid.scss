@@ -168,7 +168,7 @@
 		}
 		.siteTwo{
 			padding: 25% 0;
-			color: $black;
+			color: white;
 			float: right;
 			z-index: 10;
 			position: relative;
@@ -180,12 +180,15 @@
 }
 
 .sectionSeven{
-	background-image: url('../images/sectionFooter-bgimg.jpg');
+	border-top: 1px #666 solid;
+
+/* 	background-image: url('../images/sectionFooter-bgimg.jpg'); */
+	background-color: $black;
 	border-top: 5px #b2b2b2;
 	.gridSeven{
 		height: auto;
 		bottom: 0;
-		padding: 100px;
+		padding: 60px;
 		color: white;
 		.footerOne{
 			text-align: center;
@@ -194,23 +197,27 @@
 		}
 	}
 	.whiteBorder{
-		border-top: 1px white solid;
+		border-top: 1px #666 solid;
 		.gridSeven{
+			padding: 40px;
 			.footerTwo{
 				display: block;
-				margin: auto;
 				.footerLogo{
 					display: block;
-					width: 108px;
+					width: 120px;
 					height: inherit;
 					margin: auto;
 				}
-				.footerh{
-					font-size: 13px;
+				h2{
+					font-size: 8px;
 					text-align: center;
 					margin-bottom: 10px;
 				}
 			}
 		}
 	}
+}
+
+.sectionFooter{
+	border-top: 1px white solid;
 }
